@@ -12,6 +12,8 @@ to natural language.
 
 The only dependency is [Underscore.js](http://underscorejs.org/).
 
+Forked from abpoms/rrule with support for excluding dates.
+
 * * * * *
 
 
@@ -249,6 +251,11 @@ iCalendar RFC. Only `freq` is required.
         <td>This is an extension to the RFC specification which the Python
             implementation provides.
             <strong>Not implemented in the JavaScript version.</strong>
+        </td>
+    </tr>
+    <tr>
+        <td><code>exdate</code></td>
+        <td>A sequence of dates, to be excluded from any generated dates.
         </td>
     </tr>
     </tbody>
